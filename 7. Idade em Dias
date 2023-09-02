@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int idade;
+    int A;
+    int M;
+    int D;
+    
+    scanf("%d", &idade);
+    
+    A = idade/365;
+    M = (idade%365)/30;
+    D = (idade%365)%30;
+    
+    printf ("%d ano(s)\n", A);
+    printf ("%d mes(es)\n", M);
+    printf("%d dia(s)\n", D);
+ 
+    return 0;
+}
